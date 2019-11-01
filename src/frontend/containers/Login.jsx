@@ -1,3 +1,8 @@
+/* eslint-disable jsx-a11y/label-has-associated-control */
+/* eslint-disable react/button-has-type */
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable react/jsx-indent */
+/* eslint-disable indent */
 import React, { useState } from 'react';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -61,15 +66,15 @@ const Login = (props) => {
 <img src={googleIcon} />
 {' '}
 Inicia sesión con Google
-</div>
+            </div>
             <div>
 <img src={twitterIcon} />
 {' '}
 Inicia sesión con Twitter
-</div>
+            </div>
           </section>
           <p className='login__container--register'>
-              No tienes ninguna cuenta 
+              No tienes ninguna cuenta
 {' '}
 {' '}
             <Link to='/register'>

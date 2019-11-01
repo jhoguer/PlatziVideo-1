@@ -34,7 +34,7 @@ const Header = (props) => {
         </div>
         <ul>
           {hasUser ?
-            <li><a href='/'>{user.name}</a></li>            :
+            <li><a href='/'>{user.name}</a></li> :
             null}
           {hasUser ?
             <li><a href='#logout' onClick={handleLogout}>Cerrar Sesión</a></li> :
